@@ -8,6 +8,10 @@
         "source": "/Users/jhk/Desktop/4-1/cp/team/connected-platform/res/drawable-xhdpi/icon_12676.png"
     },
     {
+        "merged": "/Users/jhk/Desktop/4-1/cp/team/connected-platform/build/intermediates/merged_res/debug/layout_fragment_my.xml.flat",
+        "source": "/Users/jhk/Desktop/4-1/cp/team/connected-platform/res/layout/fragment_my.xml"
+    },
+    {
         "merged": "/Users/jhk/Desktop/4-1/cp/team/connected-platform/build/intermediates/merged_res/debug/layout_activity_main.xml.flat",
         "source": "/Users/jhk/Desktop/4-1/cp/team/connected-platform/res/layout/activity_main.xml"
     },
@@ -26,6 +30,10 @@
     {
         "merged": "/Users/jhk/Desktop/4-1/cp/team/connected-platform/build/intermediates/merged_res/debug/drawable-xhdpi_icon_17114.png.flat",
         "source": "/Users/jhk/Desktop/4-1/cp/team/connected-platform/res/drawable-xhdpi/icon_17114.png"
+    },
+    {
+        "merged": "/Users/jhk/Desktop/4-1/cp/team/connected-platform/build/intermediates/merged_res/debug/drawable-xhdpi_icon_7777.png.flat",
+        "source": "/Users/jhk/Desktop/4-1/cp/team/connected-platform/res/drawable-xhdpi/icon_7777.png"
     },
     {
         "merged": "/Users/jhk/Desktop/4-1/cp/team/connected-platform/build/intermediates/merged_res/debug/drawable-hdpi_drawer_shadow.9.png.flat",
@@ -106,6 +114,10 @@
     {
         "merged": "/Users/jhk/Desktop/4-1/cp/team/connected-platform/build/intermediates/merged_res/debug/drawable-xhdpi_icon_15111.png.flat",
         "source": "/Users/jhk/Desktop/4-1/cp/team/connected-platform/res/drawable-xhdpi/icon_15111.png"
+    },
+    {
+        "merged": "/Users/jhk/Desktop/4-1/cp/team/connected-platform/build/intermediates/merged_res/debug/drawable-mdpi_icon_7777.png.flat",
+        "source": "/Users/jhk/Desktop/4-1/cp/team/connected-platform/res/drawable-mdpi/icon_7777.png"
     },
     {
         "merged": "/Users/jhk/Desktop/4-1/cp/team/connected-platform/build/intermediates/merged_res/debug/drawable-hdpi_ic_drawer.png.flat",

@@ -1110,6 +1110,7 @@ int drawable icon_15307 0x7f080169
 int drawable icon_17114 0x7f08016a
 int drawable icon_17183 0x7f08016b
 int drawable icon_3330 0x7f08016c
+int drawable icon_7777 0x7f0801c3
 int drawable lgcast_noti_icon 0x7f08016d
 int drawable lgcast_noti_icon_thinq 0x7f08016e
 int drawable mr_button_connected_dark 0x7f08016f
@@ -1645,6 +1646,7 @@ int layout expand_button 0x7f0c0026
 int layout fragment_apps 0x7f0c0027
 int layout fragment_fiveway 0x7f0c0028
 int layout fragment_media_player 0x7f0c0029
+int layout fragment_my 0x7f0c0061
 int layout fragment_navigation_drawer 0x7f0c002a
 int layout fragment_system 0x7f0c002b
 int layout fragment_tv 0x7f0c002c
