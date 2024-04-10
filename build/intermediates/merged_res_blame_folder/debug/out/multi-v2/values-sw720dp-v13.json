@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/jhk/Desktop/4-1/cp/team/connected-platform/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw720dp-v13/values-sw720dp-v13.xml",
+            "outputFile": "/Users/macheewon/Documents/GitHub/connected-platform/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw720dp-v13/values-sw720dp-v13.xml",
             "map": [
                 {
-                    "source": "/Users/jhk/.gradle/caches/transforms-3/8e9b84258364bbae699e3bec6c2e9ea8/transformed/mediarouter-1.2.0/res/values-sw720dp-v13/values-sw720dp-v13.xml",
+                    "source": "/Users/macheewon/.gradle/caches/transforms-3/e0bb2032dcb1fef059dfb313919dcdfd/transformed/mediarouter-1.2.0/res/values-sw720dp-v13/values-sw720dp-v13.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",

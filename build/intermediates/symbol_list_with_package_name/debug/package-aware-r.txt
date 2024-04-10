@@ -1111,6 +1111,7 @@ drawable icon_15307
 drawable icon_17114
 drawable icon_17183
 drawable icon_3330
+drawable icon_61120
 drawable lgcast_noti_icon
 drawable lgcast_noti_icon_thinq
 drawable mr_button_connected_dark
@@ -1644,6 +1645,7 @@ layout channel_item
 layout custom_dialog
 layout expand_button
 layout fragment_apps
+layout fragment_custom
 layout fragment_fiveway
 layout fragment_media_player
 layout fragment_navigation_drawer

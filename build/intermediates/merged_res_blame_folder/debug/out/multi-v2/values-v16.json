@@ -1,20 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/jhk/Desktop/4-1/cp/team/connected-platform/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v16/values-v16.xml",
+            "outputFile": "/Users/macheewon/Documents/GitHub/connected-platform/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v16/values-v16.xml",
             "map": [
                 {
-                    "source": "/Users/jhk/.gradle/caches/transforms-3/b9e4376e452ce4f1a2bbb1fc4b534124/transformed/core-1.7.0/res/values-v16/values-v16.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "65",
-                        "endOffsets": "116"
-                    }
-                },
-                {
-                    "source": "/Users/jhk/.gradle/caches/transforms-3/991f2d2c7654afd1ed85cd9ebd2894ef/transformed/appcompat-1.4.0/res/values-v16/values-v16.xml",
+                    "source": "/Users/macheewon/.gradle/caches/transforms-3/6fe692505b6ac221d779164c9a84b91c/transformed/appcompat-1.4.0/res/values-v16/values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -30,6 +20,16 @@
                         "endLines": "6",
                         "endColumns": "12",
                         "endOffsets": "289"
+                    }
+                },
+                {
+                    "source": "/Users/macheewon/.gradle/caches/transforms-3/b7b09182f45c2f0aef0738ec4523e63c/transformed/core-1.7.0/res/values-v16/values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
                     }
                 }
             ]

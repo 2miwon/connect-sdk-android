@@ -1,142 +1,154 @@
 [
     {
-        "merged": "/Users/jhk/Desktop/4-1/cp/team/connected-platform/build/intermediates/merged_res/debug/drawable-xxhdpi_ic_drawer.png.flat",
-        "source": "/Users/jhk/Desktop/4-1/cp/team/connected-platform/res/drawable-xxhdpi/ic_drawer.png"
+        "merged": "/Users/macheewon/Documents/GitHub/connected-platform/build/intermediates/merged_res/debug/drawable-mdpi_icon_61120.png.flat",
+        "source": "/Users/macheewon/Documents/GitHub/connected-platform/res/drawable-mdpi/icon_61120.png"
     },
     {
-        "merged": "/Users/jhk/Desktop/4-1/cp/team/connected-platform/build/intermediates/merged_res/debug/drawable-xhdpi_icon_12676.png.flat",
-        "source": "/Users/jhk/Desktop/4-1/cp/team/connected-platform/res/drawable-xhdpi/icon_12676.png"
+        "merged": "/Users/macheewon/Documents/GitHub/connected-platform/build/intermediates/merged_res/debug/layout_fragment_navigation_drawer.xml.flat",
+        "source": "/Users/macheewon/Documents/GitHub/connected-platform/res/layout/fragment_navigation_drawer.xml"
     },
     {
-        "merged": "/Users/jhk/Desktop/4-1/cp/team/connected-platform/build/intermediates/merged_res/debug/layout_activity_main.xml.flat",
-        "source": "/Users/jhk/Desktop/4-1/cp/team/connected-platform/res/layout/activity_main.xml"
+        "merged": "/Users/macheewon/Documents/GitHub/connected-platform/build/intermediates/merged_res/debug/drawable-xxhdpi_drawer_shadow.9.png.flat",
+        "source": "/Users/macheewon/Documents/GitHub/connected-platform/res/drawable-xxhdpi/drawer_shadow.9.png"
     },
     {
-        "merged": "/Users/jhk/Desktop/4-1/cp/team/connected-platform/build/intermediates/merged_res/debug/drawable-hdpi_ic_launcher.png.flat",
-        "source": "/Users/jhk/Desktop/4-1/cp/team/connected-platform/res/drawable-hdpi/ic_launcher.png"
+        "merged": "/Users/macheewon/Documents/GitHub/connected-platform/build/intermediates/merged_res/debug/drawable-xhdpi_ic_launcher.png.flat",
+        "source": "/Users/macheewon/Documents/GitHub/connected-platform/res/drawable-xhdpi/ic_launcher.png"
     },
     {
-        "merged": "/Users/jhk/Desktop/4-1/cp/team/connected-platform/build/intermediates/merged_res/debug/drawable-xxhdpi_drawer_shadow.9.png.flat",
-        "source": "/Users/jhk/Desktop/4-1/cp/team/connected-platform/res/drawable-xxhdpi/drawer_shadow.9.png"
+        "merged": "/Users/macheewon/Documents/GitHub/connected-platform/build/intermediates/merged_res/debug/layout_activity_main.xml.flat",
+        "source": "/Users/macheewon/Documents/GitHub/connected-platform/res/layout/activity_main.xml"
     },
     {
-        "merged": "/Users/jhk/Desktop/4-1/cp/team/connected-platform/build/intermediates/merged_res/debug/drawable-mdpi_icon_3330.png.flat",
-        "source": "/Users/jhk/Desktop/4-1/cp/team/connected-platform/res/drawable-mdpi/icon_3330.png"
+        "merged": "/Users/macheewon/Documents/GitHub/connected-platform/build/intermediates/merged_res/debug/drawable-xhdpi_icon_61120.png.flat",
+        "source": "/Users/macheewon/Documents/GitHub/connected-platform/res/drawable-xhdpi/icon_61120.png"
     },
     {
-        "merged": "/Users/jhk/Desktop/4-1/cp/team/connected-platform/build/intermediates/merged_res/debug/drawable-xhdpi_icon_17114.png.flat",
-        "source": "/Users/jhk/Desktop/4-1/cp/team/connected-platform/res/drawable-xhdpi/icon_17114.png"
+        "merged": "/Users/macheewon/Documents/GitHub/connected-platform/build/intermediates/merged_res/debug/drawable-xhdpi_icon_15111.png.flat",
+        "source": "/Users/macheewon/Documents/GitHub/connected-platform/res/drawable-xhdpi/icon_15111.png"
     },
     {
-        "merged": "/Users/jhk/Desktop/4-1/cp/team/connected-platform/build/intermediates/merged_res/debug/drawable-hdpi_drawer_shadow.9.png.flat",
-        "source": "/Users/jhk/Desktop/4-1/cp/team/connected-platform/res/drawable-hdpi/drawer_shadow.9.png"
+        "merged": "/Users/macheewon/Documents/GitHub/connected-platform/build/intermediates/merged_res/debug/layout_channel_item.xml.flat",
+        "source": "/Users/macheewon/Documents/GitHub/connected-platform/res/layout/channel_item.xml"
     },
     {
-        "merged": "/Users/jhk/Desktop/4-1/cp/team/connected-platform/build/intermediates/merged_res/debug/drawable-xhdpi_icon_3330.png.flat",
-        "source": "/Users/jhk/Desktop/4-1/cp/team/connected-platform/res/drawable-xhdpi/icon_3330.png"
+        "merged": "/Users/macheewon/Documents/GitHub/connected-platform/build/intermediates/merged_res/debug/layout_fragment_webapp.xml.flat",
+        "source": "/Users/macheewon/Documents/GitHub/connected-platform/res/layout/fragment_webapp.xml"
     },
     {
-        "merged": "/Users/jhk/Desktop/4-1/cp/team/connected-platform/build/intermediates/merged_res/debug/drawable-mdpi_icon_17114.png.flat",
-        "source": "/Users/jhk/Desktop/4-1/cp/team/connected-platform/res/drawable-mdpi/icon_17114.png"
+        "merged": "/Users/macheewon/Documents/GitHub/connected-platform/build/intermediates/merged_res/debug/drawable-mdpi_icon_15307.png.flat",
+        "source": "/Users/macheewon/Documents/GitHub/connected-platform/res/drawable-mdpi/icon_15307.png"
     },
     {
-        "merged": "/Users/jhk/Desktop/4-1/cp/team/connected-platform/build/intermediates/merged_res/debug/drawable-mdpi_icon_15307.png.flat",
-        "source": "/Users/jhk/Desktop/4-1/cp/team/connected-platform/res/drawable-mdpi/icon_15307.png"
+        "merged": "/Users/macheewon/Documents/GitHub/connected-platform/build/intermediates/merged_res/debug/drawable-xhdpi_ic_drawer.png.flat",
+        "source": "/Users/macheewon/Documents/GitHub/connected-platform/res/drawable-xhdpi/ic_drawer.png"
     },
     {
-        "merged": "/Users/jhk/Desktop/4-1/cp/team/connected-platform/build/intermediates/merged_res/debug/drawable-mdpi_drawer_shadow.9.png.flat",
-        "source": "/Users/jhk/Desktop/4-1/cp/team/connected-platform/res/drawable-mdpi/drawer_shadow.9.png"
+        "merged": "/Users/macheewon/Documents/GitHub/connected-platform/build/intermediates/merged_res/debug/drawable-mdpi_icon_17114.png.flat",
+        "source": "/Users/macheewon/Documents/GitHub/connected-platform/res/drawable-mdpi/icon_17114.png"
     },
     {
-        "merged": "/Users/jhk/Desktop/4-1/cp/team/connected-platform/build/intermediates/merged_res/debug/layout_fragment_tv.xml.flat",
-        "source": "/Users/jhk/Desktop/4-1/cp/team/connected-platform/res/layout/fragment_tv.xml"
+        "merged": "/Users/macheewon/Documents/GitHub/connected-platform/build/intermediates/merged_res/debug/drawable-xhdpi_icon_3330.png.flat",
+        "source": "/Users/macheewon/Documents/GitHub/connected-platform/res/drawable-xhdpi/icon_3330.png"
     },
     {
-        "merged": "/Users/jhk/Desktop/4-1/cp/team/connected-platform/build/intermediates/merged_res/debug/menu_main.xml.flat",
-        "source": "/Users/jhk/Desktop/4-1/cp/team/connected-platform/res/menu/main.xml"
+        "merged": "/Users/macheewon/Documents/GitHub/connected-platform/build/intermediates/merged_res/debug/menu_main.xml.flat",
+        "source": "/Users/macheewon/Documents/GitHub/connected-platform/res/menu/main.xml"
     },
     {
-        "merged": "/Users/jhk/Desktop/4-1/cp/team/connected-platform/build/intermediates/merged_res/debug/layout_channel_item.xml.flat",
-        "source": "/Users/jhk/Desktop/4-1/cp/team/connected-platform/res/layout/channel_item.xml"
+        "merged": "/Users/macheewon/Documents/GitHub/connected-platform/build/intermediates/merged_res/debug/layout_app_item.xml.flat",
+        "source": "/Users/macheewon/Documents/GitHub/connected-platform/res/layout/app_item.xml"
     },
     {
-        "merged": "/Users/jhk/Desktop/4-1/cp/team/connected-platform/build/intermediates/merged_res/debug/layout_fragment_system.xml.flat",
-        "source": "/Users/jhk/Desktop/4-1/cp/team/connected-platform/res/layout/fragment_system.xml"
+        "merged": "/Users/macheewon/Documents/GitHub/connected-platform/build/intermediates/merged_res/debug/drawable-hdpi_ic_drawer.png.flat",
+        "source": "/Users/macheewon/Documents/GitHub/connected-platform/res/drawable-hdpi/ic_drawer.png"
     },
     {
-        "merged": "/Users/jhk/Desktop/4-1/cp/team/connected-platform/build/intermediates/merged_res/debug/drawable-xhdpi_icon_15307.png.flat",
-        "source": "/Users/jhk/Desktop/4-1/cp/team/connected-platform/res/drawable-xhdpi/icon_15307.png"
+        "merged": "/Users/macheewon/Documents/GitHub/connected-platform/build/intermediates/merged_res/debug/layout_fragment_media_player.xml.flat",
+        "source": "/Users/macheewon/Documents/GitHub/connected-platform/res/layout/fragment_media_player.xml"
     },
     {
-        "merged": "/Users/jhk/Desktop/4-1/cp/team/connected-platform/build/intermediates/merged_res/debug/drawable-xhdpi_ic_drawer.png.flat",
-        "source": "/Users/jhk/Desktop/4-1/cp/team/connected-platform/res/drawable-xhdpi/ic_drawer.png"
+        "merged": "/Users/macheewon/Documents/GitHub/connected-platform/build/intermediates/merged_res/debug/drawable-xxhdpi_ic_drawer.png.flat",
+        "source": "/Users/macheewon/Documents/GitHub/connected-platform/res/drawable-xxhdpi/ic_drawer.png"
     },
     {
-        "merged": "/Users/jhk/Desktop/4-1/cp/team/connected-platform/build/intermediates/merged_res/debug/layout_fragment_media_player.xml.flat",
-        "source": "/Users/jhk/Desktop/4-1/cp/team/connected-platform/res/layout/fragment_media_player.xml"
+        "merged": "/Users/macheewon/Documents/GitHub/connected-platform/build/intermediates/merged_res/debug/layout_fragment_tv.xml.flat",
+        "source": "/Users/macheewon/Documents/GitHub/connected-platform/res/layout/fragment_tv.xml"
     },
     {
-        "merged": "/Users/jhk/Desktop/4-1/cp/team/connected-platform/build/intermediates/merged_res/debug/layout_app_item.xml.flat",
-        "source": "/Users/jhk/Desktop/4-1/cp/team/connected-platform/res/layout/app_item.xml"
+        "merged": "/Users/macheewon/Documents/GitHub/connected-platform/build/intermediates/merged_res/debug/drawable-xhdpi_icon_15307.png.flat",
+        "source": "/Users/macheewon/Documents/GitHub/connected-platform/res/drawable-xhdpi/icon_15307.png"
     },
     {
-        "merged": "/Users/jhk/Desktop/4-1/cp/team/connected-platform/build/intermediates/merged_res/debug/drawable-xhdpi_ic_launcher.png.flat",
-        "source": "/Users/jhk/Desktop/4-1/cp/team/connected-platform/res/drawable-xhdpi/ic_launcher.png"
+        "merged": "/Users/macheewon/Documents/GitHub/connected-platform/build/intermediates/merged_res/debug/drawable-xxhdpi_ic_launcher.png.flat",
+        "source": "/Users/macheewon/Documents/GitHub/connected-platform/res/drawable-xxhdpi/ic_launcher.png"
     },
     {
-        "merged": "/Users/jhk/Desktop/4-1/cp/team/connected-platform/build/intermediates/merged_res/debug/drawable-xhdpi_drawer_shadow.9.png.flat",
-        "source": "/Users/jhk/Desktop/4-1/cp/team/connected-platform/res/drawable-xhdpi/drawer_shadow.9.png"
+        "merged": "/Users/macheewon/Documents/GitHub/connected-platform/build/intermediates/merged_res/debug/layout_fragment_custom.xml.flat",
+        "source": "/Users/macheewon/Documents/GitHub/connected-platform/res/layout/fragment_custom.xml"
     },
     {
-        "merged": "/Users/jhk/Desktop/4-1/cp/team/connected-platform/build/intermediates/merged_res/debug/drawable-mdpi_ic_launcher.png.flat",
-        "source": "/Users/jhk/Desktop/4-1/cp/team/connected-platform/res/drawable-mdpi/ic_launcher.png"
+        "merged": "/Users/macheewon/Documents/GitHub/connected-platform/build/intermediates/merged_res/debug/layout_fragment_fiveway.xml.flat",
+        "source": "/Users/macheewon/Documents/GitHub/connected-platform/res/layout/fragment_fiveway.xml"
     },
     {
-        "merged": "/Users/jhk/Desktop/4-1/cp/team/connected-platform/build/intermediates/merged_res/debug/drawable-xxhdpi_ic_launcher.png.flat",
-        "source": "/Users/jhk/Desktop/4-1/cp/team/connected-platform/res/drawable-xxhdpi/ic_launcher.png"
+        "merged": "/Users/macheewon/Documents/GitHub/connected-platform/build/intermediates/merged_res/debug/layout_fragment_system.xml.flat",
+        "source": "/Users/macheewon/Documents/GitHub/connected-platform/res/layout/fragment_system.xml"
     },
     {
-        "merged": "/Users/jhk/Desktop/4-1/cp/team/connected-platform/build/intermediates/merged_res/debug/layout_fragment_fiveway.xml.flat",
-        "source": "/Users/jhk/Desktop/4-1/cp/team/connected-platform/res/layout/fragment_fiveway.xml"
+        "merged": "/Users/macheewon/Documents/GitHub/connected-platform/build/intermediates/merged_res/debug/layout_fragment_apps.xml.flat",
+        "source": "/Users/macheewon/Documents/GitHub/connected-platform/res/layout/fragment_apps.xml"
     },
     {
-        "merged": "/Users/jhk/Desktop/4-1/cp/team/connected-platform/build/intermediates/merged_res/debug/drawable-mdpi_ic_drawer.png.flat",
-        "source": "/Users/jhk/Desktop/4-1/cp/team/connected-platform/res/drawable-mdpi/ic_drawer.png"
+        "merged": "/Users/macheewon/Documents/GitHub/connected-platform/build/intermediates/merged_res/debug/drawable-mdpi_ic_launcher.png.flat",
+        "source": "/Users/macheewon/Documents/GitHub/connected-platform/res/drawable-mdpi/ic_launcher.png"
     },
     {
-        "merged": "/Users/jhk/Desktop/4-1/cp/team/connected-platform/build/intermediates/merged_res/debug/drawable-xhdpi_icon_15111.png.flat",
-        "source": "/Users/jhk/Desktop/4-1/cp/team/connected-platform/res/drawable-xhdpi/icon_15111.png"
+        "merged": "/Users/macheewon/Documents/GitHub/connected-platform/build/intermediates/merged_res/debug/drawable-xhdpi_icon_17114.png.flat",
+        "source": "/Users/macheewon/Documents/GitHub/connected-platform/res/drawable-xhdpi/icon_17114.png"
     },
     {
-        "merged": "/Users/jhk/Desktop/4-1/cp/team/connected-platform/build/intermediates/merged_res/debug/drawable-hdpi_ic_drawer.png.flat",
-        "source": "/Users/jhk/Desktop/4-1/cp/team/connected-platform/res/drawable-hdpi/ic_drawer.png"
+        "merged": "/Users/macheewon/Documents/GitHub/connected-platform/build/intermediates/merged_res/debug/drawable-mdpi_drawer_shadow.9.png.flat",
+        "source": "/Users/macheewon/Documents/GitHub/connected-platform/res/drawable-mdpi/drawer_shadow.9.png"
     },
     {
-        "merged": "/Users/jhk/Desktop/4-1/cp/team/connected-platform/build/intermediates/merged_res/debug/layout_fragment_webapp.xml.flat",
-        "source": "/Users/jhk/Desktop/4-1/cp/team/connected-platform/res/layout/fragment_webapp.xml"
+        "merged": "/Users/macheewon/Documents/GitHub/connected-platform/build/intermediates/merged_res/debug/drawable-mdpi_icon_17183.png.flat",
+        "source": "/Users/macheewon/Documents/GitHub/connected-platform/res/drawable-mdpi/icon_17183.png"
     },
     {
-        "merged": "/Users/jhk/Desktop/4-1/cp/team/connected-platform/build/intermediates/merged_res/debug/drawable-mdpi_icon_17183.png.flat",
-        "source": "/Users/jhk/Desktop/4-1/cp/team/connected-platform/res/drawable-mdpi/icon_17183.png"
+        "merged": "/Users/macheewon/Documents/GitHub/connected-platform/build/intermediates/merged_res/debug/drawable-mdpi_icon_3330.png.flat",
+        "source": "/Users/macheewon/Documents/GitHub/connected-platform/res/drawable-mdpi/icon_3330.png"
     },
     {
-        "merged": "/Users/jhk/Desktop/4-1/cp/team/connected-platform/build/intermediates/merged_res/debug/drawable-xhdpi_icon_17183.png.flat",
-        "source": "/Users/jhk/Desktop/4-1/cp/team/connected-platform/res/drawable-xhdpi/icon_17183.png"
+        "merged": "/Users/macheewon/Documents/GitHub/connected-platform/build/intermediates/merged_res/debug/drawable-hdpi_drawer_shadow.9.png.flat",
+        "source": "/Users/macheewon/Documents/GitHub/connected-platform/res/drawable-hdpi/drawer_shadow.9.png"
     },
     {
-        "merged": "/Users/jhk/Desktop/4-1/cp/team/connected-platform/build/intermediates/merged_res/debug/layout_fragment_apps.xml.flat",
-        "source": "/Users/jhk/Desktop/4-1/cp/team/connected-platform/res/layout/fragment_apps.xml"
+        "merged": "/Users/macheewon/Documents/GitHub/connected-platform/build/intermediates/merged_res/debug/drawable-hdpi_ic_launcher.png.flat",
+        "source": "/Users/macheewon/Documents/GitHub/connected-platform/res/drawable-hdpi/ic_launcher.png"
     },
     {
-        "merged": "/Users/jhk/Desktop/4-1/cp/team/connected-platform/build/intermediates/merged_res/debug/drawable-mdpi_icon_12676.png.flat",
-        "source": "/Users/jhk/Desktop/4-1/cp/team/connected-platform/res/drawable-mdpi/icon_12676.png"
+        "merged": "/Users/macheewon/Documents/GitHub/connected-platform/build/intermediates/merged_res/debug/drawable-xhdpi_drawer_shadow.9.png.flat",
+        "source": "/Users/macheewon/Documents/GitHub/connected-platform/res/drawable-xhdpi/drawer_shadow.9.png"
     },
     {
-        "merged": "/Users/jhk/Desktop/4-1/cp/team/connected-platform/build/intermediates/merged_res/debug/drawable-mdpi_icon_15111.png.flat",
-        "source": "/Users/jhk/Desktop/4-1/cp/team/connected-platform/res/drawable-mdpi/icon_15111.png"
+        "merged": "/Users/macheewon/Documents/GitHub/connected-platform/build/intermediates/merged_res/debug/drawable-mdpi_icon_12676.png.flat",
+        "source": "/Users/macheewon/Documents/GitHub/connected-platform/res/drawable-mdpi/icon_12676.png"
     },
     {
-        "merged": "/Users/jhk/Desktop/4-1/cp/team/connected-platform/build/intermediates/merged_res/debug/layout_fragment_navigation_drawer.xml.flat",
-        "source": "/Users/jhk/Desktop/4-1/cp/team/connected-platform/res/layout/fragment_navigation_drawer.xml"
+        "merged": "/Users/macheewon/Documents/GitHub/connected-platform/build/intermediates/merged_res/debug/drawable-mdpi_icon_15111.png.flat",
+        "source": "/Users/macheewon/Documents/GitHub/connected-platform/res/drawable-mdpi/icon_15111.png"
+    },
+    {
+        "merged": "/Users/macheewon/Documents/GitHub/connected-platform/build/intermediates/merged_res/debug/drawable-xhdpi_icon_12676.png.flat",
+        "source": "/Users/macheewon/Documents/GitHub/connected-platform/res/drawable-xhdpi/icon_12676.png"
+    },
+    {
+        "merged": "/Users/macheewon/Documents/GitHub/connected-platform/build/intermediates/merged_res/debug/drawable-xhdpi_icon_17183.png.flat",
+        "source": "/Users/macheewon/Documents/GitHub/connected-platform/res/drawable-xhdpi/icon_17183.png"
+    },
+    {
+        "merged": "/Users/macheewon/Documents/GitHub/connected-platform/build/intermediates/merged_res/debug/drawable-mdpi_ic_drawer.png.flat",
+        "source": "/Users/macheewon/Documents/GitHub/connected-platform/res/drawable-mdpi/ic_drawer.png"
     }
 ]

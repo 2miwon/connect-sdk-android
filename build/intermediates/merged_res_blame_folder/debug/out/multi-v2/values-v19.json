@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/jhk/Desktop/4-1/cp/team/connected-platform/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v19/values-v19.xml",
+            "outputFile": "/Users/macheewon/Documents/GitHub/connected-platform/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v19/values-v19.xml",
             "map": [
                 {
-                    "source": "/Users/jhk/.gradle/caches/transforms-3/8fd05b38ce323c50639d0b30582b6fc5/transformed/jetified-play-services-cast-framework-9.4.0/res/values-v19/values.xml",
+                    "source": "/Users/macheewon/.gradle/caches/transforms-3/8ed97b44cdb6f336e2d8b32d92b793aa/transformed/jetified-play-services-cast-framework-9.4.0/res/values-v19/values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "4",

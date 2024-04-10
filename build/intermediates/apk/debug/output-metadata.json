@@ -13,7 +13,7 @@
       "attributes": [],
       "versionCode": 12,
       "versionName": "1.6.0",
-      "outputFile": "Connect-SDK-Android-API-Sampler-debug.apk"
+      "outputFile": "connected-platform-debug.apk"
     }
   ],
   "elementType": "File"
