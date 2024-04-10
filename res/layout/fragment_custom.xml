@@ -17,41 +17,38 @@
             android:text="LG Smart World" />
 
     </LinearLayout -->
-    
+
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center_horizontal"
+        android:layout_height="120dp"
         android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
         android:layout_marginRight="30dp"
-        android:layout_marginTop="20dp" >
+        android:gravity="center_horizontal">
 
         <Button
-            android:id="@+id/browserButton"
+            android:id="@+id/netflixButton1"
             android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="Browser" />
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
 
         <Button
             android:id="@+id/myApp"
             android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="My DIAL App" />
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
 
         <Button
             android:id="@+id/toastButton"
             android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="Show Toast" />
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
 
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="120dp"
         android:gravity="center_horizontal"
         android:layout_marginLeft="30dp"
         android:layout_marginRight="30dp"
@@ -60,21 +57,20 @@
         <Button
             android:id="@+id/netflixButton"
             android:layout_width="0dp"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:layout_weight="1"
             android:text="NETFLIX" />
 
         <Button
             android:id="@+id/appStoreButton"
             android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="App Store" />
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
 
         <Button
             android:id="@+id/youtubeButton"
             android:layout_width="0dp"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:layout_weight="1"
             android:text="YOUTUBE" />
 

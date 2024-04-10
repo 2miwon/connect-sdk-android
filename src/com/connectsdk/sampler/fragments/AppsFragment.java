@@ -75,7 +75,7 @@ public class AppsFragment extends BaseFragment {
         View rootView = inflater.inflate(
                 R.layout.fragment_apps, container, false);
 
-        browserButton = (Button) rootView.findViewById(R.id.browserButton);
+        browserButton = (Button) rootView.findViewById(R.id.netflixButton1);
         myAppButton = (Button) rootView.findViewById(R.id.myApp);
         toastButton = (Button) rootView.findViewById(R.id.toastButton);
 

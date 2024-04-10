@@ -10,7 +10,7 @@
     	<item>Apps</item>
     	<item>TV</item>
     	<item>System</item>
-        <item>Custom</item>
+        <item>OTT</item>
     </string-array>
 
     <string-array name="tab_icons">

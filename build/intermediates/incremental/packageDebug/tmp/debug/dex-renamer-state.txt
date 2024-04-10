@@ -1,4 +1,4 @@
-#Wed Apr 10 22:45:21 KST 2024
+#Thu Apr 11 02:00:58 KST 2024
 base.0=/Users/macheewon/Documents/GitHub/connected-platform/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
 base.1=/Users/macheewon/Documents/GitHub/connected-platform/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
 base.2=/Users/macheewon/Documents/GitHub/connected-platform/build/intermediates/dex/debug/mergeProjectDexDebug/11/classes.dex

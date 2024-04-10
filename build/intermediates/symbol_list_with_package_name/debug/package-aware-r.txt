@@ -1277,7 +1277,6 @@ id background_place_holder_image_view
 id beginning
 id blocking
 id bottom
-id browserButton
 id button
 id buttonPanel
 id button_0
@@ -1445,6 +1444,7 @@ id multiply
 id muteToggle
 id myApp
 id netflixButton
+id netflixButton1
 id never
 id nextButton
 id none
