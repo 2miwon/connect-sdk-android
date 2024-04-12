@@ -1264,8 +1264,9 @@ id adjust_width
 id alertTitle
 id all
 id always
+id amazonButton
 id appListView
-id appStoreButton
+id appleTVButton
 id async
 id audioButton
 id audio_empty_message
@@ -1318,6 +1319,7 @@ id container_current
 id content
 id contentPanel
 id controllers
+id coupangButton
 id custom
 id customPanel
 id dark
@@ -1326,6 +1328,7 @@ id decor_content_parent
 id default_activity_button
 id dialog_button
 id disableHome
+id disneyButton
 id downButton
 id dummyButton
 id editField
@@ -1442,9 +1445,7 @@ id mr_volume_item_icon
 id mr_volume_slider
 id multiply
 id muteToggle
-id myApp
 id netflixButton
-id netflixButton1
 id never
 id nextButton
 id none
@@ -1559,11 +1560,11 @@ id title
 id titleDividerNoCustom
 id title_template
 id title_view
-id toastButton
 id toolbar
 id top
 id topPanel
 id trackpadView
+id tvingButton
 id unPinWebAppButton
 id unchecked
 id uniform
@@ -1580,6 +1581,8 @@ id volumeSlider
 id volumeUpButton
 id volume_item_container
 id volume_seek_bar
+id watchaButton
+id wavveButton
 id wide
 id withText
 id wrap_content

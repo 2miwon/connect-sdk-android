@@ -27,21 +27,21 @@
         android:layout_marginTop="20dp" >
 
         <Button
-            android:id="@+id/netflixButton1"
+            android:id="@+id/watchaButton"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="Browser" />
 
         <Button
-            android:id="@+id/myApp"
+            android:id="@+id/wavveButton"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="My DIAL App" />
 
         <Button
-            android:id="@+id/toastButton"
+            android:id="@+id/coupangButton"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -65,7 +65,7 @@
             android:text="NETFLIX" />
 
         <Button
-            android:id="@+id/appStoreButton"
+            android:id="@+id/appleTVButton"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"

@@ -4,12 +4,12 @@
         "source": "/Users/macheewon/Documents/GitHub/connected-platform/res/drawable-mdpi/icon_61120.png"
     },
     {
-        "merged": "/Users/macheewon/Documents/GitHub/connected-platform/build/intermediates/merged_res/debug/drawable-xxhdpi_drawer_shadow.9.png.flat",
-        "source": "/Users/macheewon/Documents/GitHub/connected-platform/res/drawable-xxhdpi/drawer_shadow.9.png"
-    },
-    {
         "merged": "/Users/macheewon/Documents/GitHub/connected-platform/build/intermediates/merged_res/debug/layout_fragment_navigation_drawer.xml.flat",
         "source": "/Users/macheewon/Documents/GitHub/connected-platform/res/layout/fragment_navigation_drawer.xml"
+    },
+    {
+        "merged": "/Users/macheewon/Documents/GitHub/connected-platform/build/intermediates/merged_res/debug/drawable-xxhdpi_drawer_shadow.9.png.flat",
+        "source": "/Users/macheewon/Documents/GitHub/connected-platform/res/drawable-xxhdpi/drawer_shadow.9.png"
     },
     {
         "merged": "/Users/macheewon/Documents/GitHub/connected-platform/build/intermediates/merged_res/debug/drawable-xhdpi_ic_launcher.png.flat",

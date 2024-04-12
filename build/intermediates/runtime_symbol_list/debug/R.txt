@@ -1263,8 +1263,9 @@ int id adjust_width 0x7f09003e
 int id alertTitle 0x7f09003f
 int id all 0x7f090040
 int id always 0x7f090041
+int id amazonButton 0x7f090183
 int id appListView 0x7f090042
-int id appStoreButton 0x7f090043
+int id appleTVButton 0x7f090184
 int id async 0x7f090044
 int id audioButton 0x7f090045
 int id audio_empty_message 0x7f090046
@@ -1317,6 +1318,7 @@ int id container_current 0x7f090075
 int id content 0x7f090076
 int id contentPanel 0x7f090077
 int id controllers 0x7f090078
+int id coupangButton 0x7f090185
 int id custom 0x7f090079
 int id customPanel 0x7f09007a
 int id dark 0x7f09007b
@@ -1325,6 +1327,7 @@ int id decor_content_parent 0x7f09007d
 int id default_activity_button 0x7f09007e
 int id dialog_button 0x7f09007f
 int id disableHome 0x7f090080
+int id disneyButton 0x7f090186
 int id downButton 0x7f090081
 int id dummyButton 0x7f090082
 int id editField 0x7f090083
@@ -1441,9 +1444,7 @@ int id mr_volume_item_icon 0x7f0900f1
 int id mr_volume_slider 0x7f0900f2
 int id multiply 0x7f0900f3
 int id muteToggle 0x7f0900f4
-int id myApp 0x7f0900f5
 int id netflixButton 0x7f0900f6
-int id netflixButton1 0x7f090182
 int id never 0x7f0900f7
 int id nextButton 0x7f0900f8
 int id none 0x7f0900f9
@@ -1558,11 +1559,11 @@ int id title 0x7f090165
 int id titleDividerNoCustom 0x7f090166
 int id title_template 0x7f090167
 int id title_view 0x7f090168
-int id toastButton 0x7f090169
 int id toolbar 0x7f09016a
 int id top 0x7f09016b
 int id topPanel 0x7f09016c
 int id trackpadView 0x7f09016d
+int id tvingButton 0x7f090187
 int id unPinWebAppButton 0x7f09016e
 int id unchecked 0x7f09016f
 int id uniform 0x7f090170
@@ -1579,6 +1580,8 @@ int id volumeSlider 0x7f09017a
 int id volumeUpButton 0x7f09017b
 int id volume_item_container 0x7f09017c
 int id volume_seek_bar 0x7f09017d
+int id watchaButton 0x7f090188
+int id wavveButton 0x7f090189
 int id wide 0x7f09017e
 int id withText 0x7f09017f
 int id wrap_content 0x7f090180

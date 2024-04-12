@@ -27,32 +27,35 @@
         android:gravity="center_horizontal">
 
         <Button
-            android:id="@+id/netflixButton1"
+            android:id="@+id/watchaButton"
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            android:text="WATCHA" />
 
         <Button
-            android:id="@+id/myApp"
+            android:id="@+id/wavveButton"
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            android:text="WAVVE" />
 
         <Button
-            android:id="@+id/toastButton"
+            android:id="@+id/coupangButton"
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            android:text="COUPANG PLAY" />
 
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="120dp"
-        android:gravity="center_horizontal"
         android:layout_marginLeft="30dp"
+        android:layout_marginTop="0dp"
         android:layout_marginRight="30dp"
-        android:layout_marginTop="5dp" >
+        android:gravity="center_horizontal">
 
         <Button
             android:id="@+id/netflixButton"
@@ -62,10 +65,11 @@
             android:text="NETFLIX" />
 
         <Button
-            android:id="@+id/appStoreButton"
+            android:id="@+id/appleTVButton"
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            android:text="APPLE TV" />
 
         <Button
             android:id="@+id/youtubeButton"
@@ -73,6 +77,37 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:text="YOUTUBE" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginRight="30dp"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/tvingButton"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="TVING" />
+
+        <Button
+            android:id="@+id/disneyButton"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="DISNEY+" />
+
+        <Button
+            android:id="@+id/amazonButton"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="AMAZON" />
 
     </LinearLayout>
 
