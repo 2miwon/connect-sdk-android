@@ -179,33 +179,6 @@ class CustomFragment(context: Context?) : BaseFragment(context) {
                 override fun onError(error: ServiceCommandError) {}
             })
         }
-        if (tv.hasCapability(Launcher.Application_List)) {
-            launcher.getAppList(object : Launcher.AppListListener {
-                override fun onSuccess(appList: MutableList<AppInfo>) {
-                    adapter?.clear()
-                    for (app in appList) {
-                        adapter?.add(app)
-                    }
-                    adapter?.sort()
-                }
-
-                override fun onError(error: ServiceCommandError) {}
-            })
-        }
-        appListView!!.onItemClickListener =
-            OnItemClickListener { arg0, arg1, arg2, arg3 ->
-                if (runningAppSession != null) {
-                    runningAppSession!!.close(null)
-                }
-                val appInfo = arg0.getItemAtPosition(arg2) as AppInfo
-                launcher.launchAppWithInfo(appInfo, null, object : AppLaunchListener {
-                    override fun onSuccess(session: LaunchSession) {
-                        setRunningAppInfo(session)
-                    }
-
-                    override fun onError(error: ServiceCommandError) {}
-                })
-            }
     }
 
     override fun disableButtons() {
