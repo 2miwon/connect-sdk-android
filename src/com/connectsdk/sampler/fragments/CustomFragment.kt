@@ -42,7 +42,23 @@ class CustomFragment(context: Context?) : BaseFragment(context) {
         testResponse = TestResponseObject()
     }
 
-    fun buttonAction(button: Button, capability: String, params: String) {
+    fun buttonAction(button: Button, appId: String) {
+        var capability: String = ""
+        var params: String = ""
+        if (appId == "netflix") {
+            capability = Launcher.Netflix
+            params = Launcher.Netflix_Params
+        } else if (appId == "youtube") {
+            capability = Launcher.YouTube
+            params = Launcher.YouTube_Params
+        } else if (appId == "browser") {
+            capability = Launcher.Browser
+            params = Launcher.Browser_Params
+        } else {
+            capability = Launcher.Application
+            params = Launcher.Application_Params
+        }
+        
         if (tv.hasCapability(capability)
             || tv.hasCapability(params)
         ) {
@@ -54,18 +70,68 @@ class CustomFragment(context: Context?) : BaseFragment(context) {
                     }
                 } else {
                     button.isSelected = true
-                    launcher.launchBrowser("http://connectsdk.com/", object : AppLaunchListener {
-                        override fun onSuccess(session: LaunchSession) {
-                            setRunningAppInfo(session)
-                            testResponse = TestResponseObject(
-                                true,
-                                TestResponseObject.SuccessCode,
-                                TestResponseObject.Launched_Browser
-                            )
-                        }
+                    if (appId == Launcher.Netflix) {
+                        launcher.launchNetflix(
+                            "http://connectsdk.com/",
+                            object : AppLaunchListener {
+                                override fun onSuccess(session: LaunchSession) {
+                                    setRunningAppInfo(session)
+                                    testResponse = TestResponseObject(
+                                        true,
+                                        TestResponseObject.SuccessCode,
+                                        TestResponseObject.Launched_Browser
+                                    )
+                                }
 
-                        override fun onError(error: ServiceCommandError) {}
-                    })
+                                override fun onError(error: ServiceCommandError) {}
+                            })
+                    } else if (appId == Launcher.YouTube) {
+                        launcher.launchYouTube(
+                            "http://connectsdk.com/",
+                            object : AppLaunchListener {
+                                override fun onSuccess(session: LaunchSession) {
+                                    setRunningAppInfo(session)
+                                    testResponse = TestResponseObject(
+                                        true,
+                                        TestResponseObject.SuccessCode,
+                                        TestResponseObject.Launched_Browser
+                                    )
+                                }
+
+                                override fun onError(error: ServiceCommandError) {}
+                            })
+                    } else if (appId == Launcher.Browser) {
+                        launcher.launchBrowser(
+                            "http://connectsdk.com/",
+                            object : AppLaunchListener {
+                                override fun onSuccess(session: LaunchSession) {
+                                    setRunningAppInfo(session)
+                                    testResponse = TestResponseObject(
+                                        true,
+                                        TestResponseObject.SuccessCode,
+                                        TestResponseObject.Launched_Browser
+                                    )
+                                }
+
+                                override fun onError(error: ServiceCommandError) {}
+                            })
+                    } else {
+                        launcher.launchAppWithInfo(
+                            AppInfo(appId),
+                            null,
+                            object : AppLaunchListener {
+                                override fun onSuccess(session: LaunchSession) {
+                                    setRunningAppInfo(session)
+                                    testResponse = TestResponseObject(
+                                        true,
+                                        TestResponseObject.SuccessCode,
+                                        "Launched $appId"
+                                    )
+                                }
+
+                                override fun onError(error: ServiceCommandError) {}
+                            })
+                    }
                 }
             }
         } else {
@@ -82,7 +148,7 @@ class CustomFragment(context: Context?) : BaseFragment(context) {
         )
         watchaButton = rootView.findViewById<View>(R.id.watchaButton) as Button
         wavveButton = rootView.findViewById<View>(R.id.wavveButton) as Button
-        coupangButton = rootView.findViewById<View>(R.id.wavveButton) as Button
+        coupangButton = rootView.findViewById<View>(R.id.coupangButton) as Button
         netflixButton = rootView.findViewById<View>(R.id.netflixButton) as Button
         appleTVButton = rootView.findViewById<View>(R.id.appleTVButton) as Button
         youtubeButton = rootView.findViewById<View>(R.id.youtubeButton) as Button
@@ -109,77 +175,40 @@ class CustomFragment(context: Context?) : BaseFragment(context) {
 
     override fun enableButtons() {
         super.enableButtons()
-//        if (tv.hasCapability(Launcher.Browser)
-//            || tv.hasCapability(Launcher.Browser_Params)
-//        ) {
-//            browserButton!!.setOnClickListener {
-//                if (browserButton!!.isSelected) {
-//                    browserButton!!.isSelected = false
-//                    if (runningAppSession != null) {
-//                        runningAppSession!!.close(null)
-//                    }
-//                } else {
-//                    browserButton!!.isSelected = true
-//                    launcher.launchBrowser("http://connectsdk.com/", object : AppLaunchListener {
-//                        override fun onSuccess(session: LaunchSession) {
-//                            setRunningAppInfo(session)
-//                            testResponse = TestResponseObject(
-//                                true,
-//                                TestResponseObject.SuccessCode,
-//                                TestResponseObject.Launched_Browser
-//                            )
-//                        }
-//
-//                        override fun onError(error: ServiceCommandError) {}
-//                    })
-//                }
-//            }
-//        } else {
-//            disableButton(browserButton)
-//        }
-//        if (tv.hasCapability(ToastControl.Show_Toast)) {
-//            toastButton!!.setOnClickListener(object : OnClickListener {
-//                override fun onClick(v: View?) {
-//                    toastControl.showToast("Yeah, toast!", getToastIconData(), "png", null)
-//                    testResponse = TestResponseObject(
-//                        true,
-//                        TestResponseObject.SuccessCode,
-//                        TestResponseObject.Show_Toast
-//                    )
-//                }
-//            })
-//        } else {
-//            disableButton(toastButton)
-//        }
-//        browserButton!!.isSelected = false
-       if (tv.hasCapability(Launcher.Netflix)
-           || tv.hasCapability(Launcher.Netflix_Params)
-       ) {
-           netflixButton!!.setOnClickListener {
-               if (netflixButton!!.isSelected) {
-                   netflixButton!!.isSelected = false
-                   if (runningAppSession != null) {
-                       runningAppSession!!.close(null)
-                   }
-               } else {
-                   netflixButton!!.isSelected = true
-                   launcher.launchNetflix("http://connectsdk.com/", object : AppLaunchListener {
-                       override fun onSuccess(session: LaunchSession) {
-                           setRunningAppInfo(session)
-                           testResponse = TestResponseObject(
-                               true,
-                               TestResponseObject.SuccessCode,
-                               TestResponseObject.Launched_Browser
-                           )
-                       }
+        buttonAction(netflixButton!!, "netflix")
+        buttonAction(disneyButton!!, "com.disney.disneyplus-prod")
+       
 
-                       override fun onError(error: ServiceCommandError) {}
-                   })
-               }
-           }
-       } else {
-           disableButton(netflixButton)
-       }
+
+//       if (tv.hasCapability(Launcher.Netflix)
+//           || tv.hasCapability(Launcher.Netflix_Params)
+//       ) {
+//           netflixButton!!.setOnClickListener {
+//               if (netflixButton!!.isSelected) {
+//                   netflixButton!!.isSelected = false
+//                   if (runningAppSession != null) {
+//                       runningAppSession!!.close(null)
+//                   }
+//               } else {
+//                   netflixButton!!.isSelected = true
+//                   launcher.launchNetflix("http://connectsdk.com/", object : AppLaunchListener {
+//                       override fun onSuccess(session: LaunchSession) {
+//                           setRunningAppInfo(session)
+//                           testResponse = TestResponseObject(
+//                               true,
+//                               TestResponseObject.SuccessCode,
+//                               TestResponseObject.Launched_Browser
+//                           )
+//                       }
+//
+//                       override fun onError(error: ServiceCommandError) {}
+//                   })
+//               }
+//           }
+//       } else {
+//           disableButton(netflixButton)
+//       }
+
         if (tv.hasCapability(Launcher.YouTube)
             || tv.hasCapability(Launcher.YouTube_Params)
         ) {
@@ -208,6 +237,7 @@ class CustomFragment(context: Context?) : BaseFragment(context) {
         } else {
             disableButton(youtubeButton)
         }
+
         if (tv.hasCapability(Launcher.RunningApp_Subscribe)) {
             runningAppSubs = launcher.subscribeRunningApp(object : AppInfoListener {
                 override fun onSuccess(appInfo: AppInfo) {
@@ -247,69 +277,7 @@ class CustomFragment(context: Context?) : BaseFragment(context) {
                     override fun onError(error: ServiceCommandError) {}
                 })
             }
-//        if (tv.hasCapability(Launcher.Browser)) {
-//            if (tv.hasCapability(Launcher.Browser_Params)) {
-//                browserButton!!.text = "Open Google"
-//            } else {
-//                browserButton!!.text = "Open Browser"
-//            }
-//        }
-//        myAppButton!!.isEnabled = tv.hasCapability("Launcher.Levak")
-//        myAppButton!!.setOnClickListener(myAppLaunch)
-//        appStoreButton!!.isEnabled = tv.hasCapability(Launcher.AppStore_Params)
-//        appStoreButton!!.setOnClickListener(launchAppStore)
     }
-
-//    var myAppLaunch = View.OnClickListener {
-//        if (myAppSession != null) {
-//            myAppSession!!.close(null)
-//            myAppSession = null
-//            myAppButton!!.isSelected = false
-//        } else {
-//            launcher.launchApp("Levak", object : AppLaunchListener {
-//                override fun onError(error: ServiceCommandError) {
-//                    Log.d("LG", "My app failed: $error")
-//                }
-//
-//                override fun onSuccess(`object`: LaunchSession) {
-//                    myAppSession = `object`
-//                    myAppButton!!.isSelected = true
-//                }
-//            })
-//        }
-//    }
-
-//    var launchAppStore = View.OnClickListener {
-//        if (appStoreSession != null) {
-//            appStoreSession!!.close(object : ResponseListener<Any?> {
-//                override fun onError(error: ServiceCommandError) {
-//                    Log.d("LG", "App Store close error: $error")
-//                }
-//
-//                override fun onSuccess(`object`: Any?) {
-//                    Log.d("LG", "AppStore close success")
-//                }
-//            })
-//            appStoreSession = null
-//            appStoreButton!!.isSelected = false
-//        } else {
-//            var appId: String? = null
-//            if (tv.getServiceByName("Netcast TV") != null) appId =
-//                "125071" else if (tv.getServiceByName("webOS TV") != null) appId =
-//                "redbox" else if (tv.getServiceByName("Roku") != null) appId = "13535"
-//            launcher.launchAppStore(appId, object : AppLaunchListener {
-//                override fun onError(error: ServiceCommandError) {
-//                    Log.d("LG", "App Store failed: $error")
-//                }
-//
-//                override fun onSuccess(`object`: LaunchSession) {
-//                    Log.d("LG", "App Store launched!")
-//                    appStoreSession = `object`
-//                    appStoreButton!!.isSelected = true
-//                }
-//            })
-//        }
-//    }
 
     override fun disableButtons() {
         if (runningAppSubs != null) runningAppSubs!!.unsubscribe()
