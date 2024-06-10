@@ -25,6 +25,7 @@ import com.connectsdk.sampler.fragments.MediaPlayerFragment;
 import com.connectsdk.sampler.fragments.SystemFragment;
 import com.connectsdk.sampler.fragments.TVFragment;
 import com.connectsdk.sampler.fragments.WebAppFragment;
+import com.connectsdk.sampler.fragments.UpdatedMediaFragment;
 
 /**
  * A {@link FragmentPagerAdapter} that returns a fragment corresponding to
@@ -60,28 +61,12 @@ public class SectionsPagerAdapter extends FragmentPagerAdapter {
         switch (position)
         {
             case 1:
-                newFragment = new WebAppFragment(mContext);
-                break;
-
-            case 2:
-                newFragment = new KeyControlFragment(mContext);
-                break;
-
-            case 3:
-                newFragment = new AppsFragment(mContext);
-                break;
-
-            case 4:
-                newFragment = new TVFragment(mContext);
-                break;
-
-            case 5:
-                newFragment = new SystemFragment(mContext);
+                newFragment = new UpdatedMediaFragment(mContext);
                 break;
 
             case 0:
             default:
-                newFragment = new MediaPlayerFragment(mContext);
+                newFragment = new UpdatedMediaFragment(mContext);
         }
 
         return newFragment;

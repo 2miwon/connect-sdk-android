@@ -177,10 +177,10 @@
             android:text="-" />
 
         <Button
-            android:id="@+id/channelUpButton"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="+" />
+        android:id="@+id/channelUpButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+" />
 
     </LinearLayout>
 

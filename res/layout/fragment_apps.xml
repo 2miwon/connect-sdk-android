@@ -69,7 +69,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="App Store" />
+            android:text="Test1" />
 
         <Button
             android:id="@+id/youtubeButton"
@@ -79,6 +79,18 @@
             android:text="YOUTUBE" />
 
     </LinearLayout>
+
+    <Button
+        android:id="@+id/youtubeButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Youtube" />
+
+    <Button
+        android:id="@+id/netflixButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Netflix" />
 
     <ListView
         android:id="@+id/appListView"

@@ -54,6 +54,8 @@
             android:layout_weight="1"
             android:text="Left" />
 
+
+
         <Button
             android:id="@+id/clickButton"
             style="?android:attr/buttonStyleSmall"
@@ -64,11 +66,11 @@
 
         <Button
             android:id="@+id/rightButton"
-            style="?android:attr/buttonStyleSmall"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="RIGHT" />
+            android:text="Right" />
+
     </LinearLayout>
 
     <LinearLayout
@@ -109,7 +111,15 @@
         android:layout_width="match_parent"
         android:layout_height="fill_parent"
         android:layout_marginTop="20dp"
-        android:background="@android:color/darker_gray" >
+        android:background="@android:color/darker_gray">
+    <TextView
+        android:id="@+id/trackpadText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mouse Trackpad"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
+        android:layout_centerInParent="true" />>
     </RelativeLayout>
 
 	<EditText
@@ -119,5 +129,4 @@
 	    android:ems="10"
 	    android:inputType="text" >
 	</EditText>
-
 </LinearLayout>
